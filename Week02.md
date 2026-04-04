@@ -6,7 +6,7 @@ Campus: Melbourne
 
 ## Task 1. Complete the Knowledge Test
 The following is a screenshot of my Knowledge Test score:
-![GitHub Screenshot Demo](./images/week2-task1-score.png)
+![GitHub Screenshot Demo](./images/week2-task1-knowladgetest.png)
 
 
 ## Task 2. View Your Computer Information

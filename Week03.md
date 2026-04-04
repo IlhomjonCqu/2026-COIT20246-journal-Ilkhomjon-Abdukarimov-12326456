@@ -6,7 +6,7 @@ Campus: Melbourne
 
 ## Task 1. Complete the Knowledge Test for Week 3
 The following is a screenshot of my Knowledge Test score:
-![GitHub Screenshot Demo](./images/week1-task5-score.png)
+![GitHub Screenshot Demo](./images/week3-task1-knowladgetest.png)
 
 
 ## Task 2. View Your Addresses
