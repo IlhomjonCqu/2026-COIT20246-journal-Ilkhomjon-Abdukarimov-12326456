@@ -10,7 +10,7 @@ Campus: Melbourne
 
 The following screenshot shows my Week 5 Knowledge Test score:
 
-![Week 5 Knowledge Test](./images/week5-task1-knowledgetest.png)
+![Week 5 Knowledge Test](./images/week5-task1-knowladgetest.png)
 
 
 ---

@@ -10,9 +10,7 @@ Campus: Melbourne
 
 The following screenshot shows my Week 4 Knowledge Test score:
 
-![Week 4 Knowledge Test](./images/week4-task1-knowledgetest.png)
-
-> **Note:** Add the actual Knowledge Test screenshot before final submission.
+![Week 4 Knowledge Test](./images/week4-task1-knowladgetest.png)
 
 ---
 
