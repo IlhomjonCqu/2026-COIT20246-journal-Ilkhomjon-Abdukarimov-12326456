@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="week7-hd-openwrt" name="Week 7 HD OpenWRT Network Diagram">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="2200" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=32;fontStyle=1;align=center;verticalAlign=middle;fontColor=#073b75;" value="Week 7 Task 4 — OpenWRT and VirtualBox Network Diagram&lt;br&gt;Cisco Packet Tracer–Style Lab Topology" vertex="1">
+          <mxGeometry height="90" width="1700" x="250" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="student" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=18;align=center;verticalAlign=middle;fontColor=#333333;" value="Student: Ilkhomjon Abdukarimov | Student ID: 12326456 | COIT20246 Networking and Cyber Security" vertex="1">
+          <mxGeometry height="40" width="1700" x="250" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="winPanel" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f1ff;strokeColor=#6c8ebf;strokeWidth=4;" value="" vertex="1">
+          <mxGeometry height="800" width="580" x="70" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="hostPanel" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3dc;strokeColor=#d6b656;strokeWidth=4;" value="" vertex="1">
+          <mxGeometry height="485" width="550" x="800" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="owrtPanel" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f7eb;strokeColor=#82b366;strokeWidth=4;" value="" vertex="1">
+          <mxGeometry height="885" width="580" x="1550" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="winTitle" parent="1" style="text;html=1;fontSize=24;fontStyle=1;fontColor=#073b75;align=center;" value="Windows Host PC" vertex="1">
+          <mxGeometry height="40" width="560" x="80" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="hostTitle" parent="1" style="text;html=1;fontSize=24;fontStyle=1;fontColor=#7a4a00;align=center;" value="VirtualBox Host‑Only Network&lt;br&gt;192.168.56.0/24" vertex="1">
+          <mxGeometry height="70" width="510" x="820" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="owrtTitle" parent="1" style="text;html=1;fontSize=24;fontStyle=1;fontColor=#207245;align=center;" value="OpenWRT Virtual Machine" vertex="1">
+          <mxGeometry height="40" width="560" x="1560" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="pcIcon" parent="1" style="shape=mxgraph.basic.rect;html=1;rounded=1;whiteSpace=wrap;fillColor=#0e77a8;strokeColor=#00456d;fontColor=#ffffff;fontSize=20;fontStyle=1;" value="PC&lt;br&gt;Windows Host" vertex="1">
+          <mxGeometry height="120" width="220" x="250" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="switchIcon" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#0576a9;strokeColor=#00456d;fontColor=#ffffff;fontSize=20;fontStyle=1;" value="VirtualBox&lt;br&gt;Host‑Only&lt;br&gt;Switch/Network" vertex="1">
+          <mxGeometry height="135" width="280" x="940" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="routerIcon" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d4572a;strokeColor=#8a2f13;fontColor=#ffffff;fontSize=21;fontStyle=1;" value="OpenWRT&lt;br&gt;Router / Linux Server" vertex="1">
+          <mxGeometry height="130" width="270" x="1710" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="wifiBox" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=17;align=left;spacingLeft=14;" value="&lt;b&gt;Physical Adapter: Wi‑Fi&lt;/b&gt;&lt;br&gt;IP: DHCP / external network&lt;br&gt;MAC: 50-5A-65-F7-85-53&lt;br&gt;Purpose: normal Internet access" vertex="1">
+          <mxGeometry height="135" width="460" x="130" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="vboxBox" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=17;align=left;spacingLeft=14;" value="&lt;b&gt;VirtualBox Host‑Only Adapter: Ethernet 2&lt;/b&gt;&lt;br&gt;InterfaceDescription: VirtualBox Host‑Only Ethernet Adapter #2&lt;br&gt;&lt;b&gt;IP: 192.168.56.1/24&lt;/b&gt;&lt;br&gt;MAC: 0A-00-27-00-00-0C | ifIndex: 12" vertex="1">
+          <mxGeometry height="160" width="460" x="130" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="routeBox" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=17;align=left;spacingLeft=14;" value="&lt;b&gt;Route observed on Windows&lt;/b&gt;&lt;br&gt;192.168.56.0/24 → InterfaceIndex 12&lt;br&gt;NextHop: 0.0.0.0 (directly connected)&lt;br&gt;Purpose: host-to-VM management and web/SSH access" vertex="1">
+          <mxGeometry height="155" width="460" x="850" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="eth0Box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=17;align=left;spacingLeft=14;" value="&lt;b&gt;eth0 — Host‑Only NIC&lt;/b&gt;&lt;br&gt;MAC: 08:00:27:4d:c6:c3&lt;br&gt;State: UP, LOWER_UP&lt;br&gt;Role: connected to Windows host-only network" vertex="1">
+          <mxGeometry height="155" width="485" x="1600" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="brBox" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=17;align=left;spacingLeft=14;" value="&lt;b&gt;br-lan / Management Bridge&lt;/b&gt;&lt;br&gt;&lt;b&gt;IP: 192.168.56.2/24&lt;/b&gt;&lt;br&gt;IPv6: fd26:c6ba:a153::1/60&lt;br&gt;Route: 192.168.56.0/24 dev br-lan src 192.168.56.2&lt;br&gt;Note: lab output shows br-lan as the active management bridge." vertex="1">
+          <mxGeometry height="180" width="485" x="1600" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="eth1Box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8f8;strokeColor=#b85450;fontSize=17;align=left;spacingLeft=14;" value="&lt;b&gt;eth1 — VirtualBox NAT adapter&lt;/b&gt;&lt;br&gt;Used for Internet access if enabled. Not visible in the provided ip addr screenshot." vertex="1">
+          <mxGeometry height="85" width="485" x="1600" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="internet" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=5;strokeColor=#005ea8;fontSize=17;fontStyle=1;labelBackgroundColor=#ffffff;" target="switchIcon" value="Host‑Only link&lt;br&gt;Windows 192.168.56.1/24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="switchIcon" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=5;strokeColor=#005ea8;fontSize=17;fontStyle=1;labelBackgroundColor=#ffffff;" target="eth0Box" value="Host‑Only link&lt;br&gt;OpenWRT 192.168.56.2/24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="wifiBox" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=3;dashed=1;strokeColor=#6f42c1;fontSize=15;labelBackgroundColor=#ffffff;" target="internet" value="Windows Wi‑Fi&lt;br&gt;external access">
+          <mxGeometry relative="1" x="-0.0929" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="360" y="720" />
+              <mxPoint x="1080" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="eth1Box" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=3;dashed=1;strokeColor=#b1302b;fontSize=15;labelBackgroundColor=#ffffff;" target="internet" value="OpenWRT eth1 NAT&lt;br&gt;if enabled">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="evidence" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#bbbbbb;fontSize=16;align=left;spacingLeft=18;" value="&lt;b&gt;Evidence-based values used:&lt;/b&gt;&lt;br&gt;• Windows Ethernet 2 = VirtualBox Host‑Only Adapter #2, MAC 0A-00-27-00-00-0C, ifIndex 12.&lt;br&gt;• Windows Ethernet 2 IPv4 = 192.168.56.1/24.&lt;br&gt;• Windows route = 192.168.56.0/24 through ifIndex 12.&lt;br&gt;• OpenWRT eth0/br-lan MAC = 08:00:27:4d:c6:c3 and IPv4 = 192.168.56.2/24.&lt;br&gt;• OpenWRT route = 192.168.56.0/24 dev br-lan src 192.168.56.2." vertex="1">
+          <mxGeometry height="145" width="2060" x="80" y="1182" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;align=left;spacingLeft=14;" value="Blue solid line = active host‑only management path. Dashed lines = external/NAT paths. The tutorial names br-mng; your OpenWRT output shows br-lan as the active bridge, so the diagram labels the observed bridge accurately." vertex="1">
+          <mxGeometry height="80" width="580" x="70" y="1035" as="geometry" />
+        </mxCell>
+        <mxCell id="n63QNwUwhnxcvBGxfI0o-1" edge="1" parent="1" source="vboxBox" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=5;strokeColor=#005ea8;fontSize=17;fontStyle=1;labelBackgroundColor=#ffffff;" target="internet" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="820" as="sourcePoint" />
+            <mxPoint x="1080" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="internet" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fdebea;strokeColor=#b1302b;fontColor=#b1302b;fontSize=24;fontStyle=1;" value="Internet&lt;br&gt;NAT / External" vertex="1">
+          <mxGeometry height="170" width="370" x="898" y="950" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

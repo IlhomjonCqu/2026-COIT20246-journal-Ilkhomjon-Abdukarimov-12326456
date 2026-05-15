@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>12326456 - Week 06 Web Page</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+
+    <div class="info-box">
+        <h1>12326456</h1>
+
+        <p class="student-name">This is Ilkhomjon Abdukarimov's Week 06 web page.</p>
+
+        <p><strong>Student ID:</strong> 12326456</p>
+        <p><strong>Course:</strong> COIT20246 Networking and Cyber Security</p>
+        <p><strong>Task:</strong> Week 06 Internet Applications</p>
+
+        <button onclick="showDateTime()">Show date and time</button>
+
+        <p id="datetime"></p>
+
+        <p><a href="index.html">Return to main page</a></p>
+    </div>
+
+    <script>
+        function showDateTime() {
+            document.getElementById("datetime").innerHTML = new Date().toString();
+        }
+    </script>
+
+</body>
+</html>
